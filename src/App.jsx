@@ -45,7 +45,7 @@ function App() {
 
   // Handle form submission. Set prompt to user input.
   const handleSubmit = (newPrompt) => {
-    setErrorMsg("");
+    setErrorMsg(" ");
     setWeatherDataLoading(true);
     setWeatherDescriptLoading(true);
     setPrompt(newPrompt);
